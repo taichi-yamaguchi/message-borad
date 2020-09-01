@@ -35,8 +35,7 @@
     {{-- メッセージ作成ページへのリンク --}}
     {!! link_to_route('messages.create', '新規メッセージの投稿', [], ['class' => 'btn btn-primary']) !!}
     
-    {{-- メッセージ編集ページへのリンク --}}
-    {!! link_to_route('messages.edit', 'このメッセージを編集', ['message' => $message->id], ['class' => 'btn btn-light']) !!}
+   
 
     
     {{-- メッセージ削除フォーム --}}
