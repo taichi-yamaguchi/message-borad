@@ -37,10 +37,4 @@
     
    
 
-    
-    {{-- メッセージ削除フォーム --}}
-    {!! Form::model($message, ['route' => ['messages.destroy', $message->id], 'method' => 'delete']) !!}
-        {!! Form::submit('削除', ['class' => 'btn btn-danger']) !!}
-    {!! Form::close() !!}
-
 @endsection
